@@ -34,7 +34,7 @@ li {
 // visibility
 .hide-for-mobile {
   // hide for tablet and mobile
-  @include breakpoint-down(medium) {
+  @include breakpoint-down(large) {
     display: none;
   }
 }

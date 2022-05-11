@@ -39,7 +39,8 @@ $padding-banner-md : 3.5625rem;
 $padding-banner-sm : 1rem;
 
 // breakpoints
-  // 640px,1024px,1400px
-$breakpoints-up : (medium : 40rem,large : 63.9375rem,x-large : 87.5rem);
-  // 398px, 639px,1023px,710px,1399px
-$breakpoints-down : (x-small: 398px,small : 39.9375rem,pre-small:44.375rem,medium : 63.9375rem,large : 87.4375rem);
+$breakpoints-up : (medium : 40rem,large :1198px,x-large : 87.5rem);
+// 398px, 639px,1023px,710px,1399px
+$breakpoints-down : (x-small: 398px,small : 39.9375rem,pre-small:44.375rem,medium : 63.9375rem,large : 1198px);
+
+$breakpoint-lg : 1198px;

@@ -1,4 +1,9 @@
 .carousel {
+  &:hover{
+    .carousel__prev,.carousel__next{
+      opacity: 1;
+    }
+  }
   &__img {
     position: absolute;
     z-index: -1;
@@ -23,7 +28,7 @@
     width: 60%;
   }
   &__btn {
-    transition: background-color .3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     &.hover-bg:first-child {
       &:hover {
         background-color: $colour-secondary;
@@ -34,5 +39,29 @@
         background-color: $colour-primary;
       }
     }
+  }
+
+  &__prev {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.401);
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 4rem;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  &__next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.401);
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    right: 4rem;
+    cursor: pointer;
+    opacity: 0;
   }
 }

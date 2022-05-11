@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="top-bar">
+    <div class="top-bar hide-for-mobile">
       <div class="container flex justify-between items-center">
         <div class="top-bar__left flex items-center justify-between">
           <div class="top-bar__info">
@@ -64,14 +64,62 @@
 
           <!-- links -->
           <div class="header__links flex items-center">
-            <span class="header__link font-semibold cursor-pointer">
+            <span class="header__link relative font-semibold cursor-pointer">
               <span>Home</span>
+              <span class="menu z-50 flex flex-col bg-white shadow-lg ">
+                <span class="menu__link">
+                  <span>HomePage 1</span>
+                </span>
+                <span class="menu__link">
+                  <span>HomePage 2</span>
+                </span>
+                <span class="menu__link">
+                  <span>HomePage 3</span>
+                </span>
+                <span class="menu__link">
+                  <span>Heder styles</span>
+                </span>
+              </span>
             </span>
             <span class="header__link font-semibold cursor-pointer">
               <span>Pages</span>
+              <span class="menu z-50 flex flex-col bg-white shadow-lg ">
+                <span class="menu__link">
+                  <span>About Us 1</span>
+                </span>
+                <span class="menu__link">
+                  <span>About Us 2</span>
+                </span>
+                <span class="menu__link">
+                  <span>Services 1</span>
+                </span>
+                <span class="menu__link">
+                  <span>Services 2</span>
+                </span>
+              </span>
             </span>
             <span class="header__link font-semibold cursor-pointer">
               <span>Services</span>
+              <span class="menu z-50 flex flex-col bg-white shadow-lg ">
+                <span class="menu__link">
+                  <span>IT Consultancy</span>
+                </span>
+                <span class="menu__link">
+                  <span>Digital Services</span>
+                </span>
+                <span class="menu__link">
+                  <span>Advisory services</span>
+                </span>
+                <span class="menu__link">
+                  <span>Data Structuring</span>
+                </span>
+                <span class="menu__link">
+                  <span>Experience Design</span>
+                </span>
+                <span class="menu__link">
+                  <span>Content Engineering</span>
+                </span>
+              </span>
             </span>
             <span class="header__link font-semibold cursor-pointer">
               <span>Projets</span>
@@ -92,7 +140,9 @@
         </div>
       </div>
       <!-- carousel -->
-      <div class="carousel">
+      <!-- <div class="carousel">
+        <div class="carousel__prev"></div>
+        <div class="carousel__next"></div>
         <img src="./assets/bg-banner.jpeg" alt="bg-1" class="carousel__img" />
         <div class="container flex items-center justify-end">
           <div class="carousel__content pt-72">
@@ -111,8 +161,10 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- <div class="carousel">
+      </div> -->
+      <div class="carousel">
+        <div class="carousel__prev"></div>
+        <div class="carousel__next"></div>
         <img src="./assets/bg-banner-2.jpeg" alt="bg-1" class="carousel__img" />
         <div class="container flex items-center justify-start">
           <div class="carousel__content pt-72">
@@ -133,7 +185,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>

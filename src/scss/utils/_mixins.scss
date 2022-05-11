@@ -11,6 +11,12 @@
     }
 }
 
+@mixin hide-for-mobile {
+    @media (max-width: $breakpoint-lg) {
+        display: none;
+    } 
+}
+
 // flex position
 @mixin flex($a-i: center, $j-c: space-between,$d: row,$d-type: flex){
     display: $d-type;
