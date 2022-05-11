@@ -1,0 +1,38 @@
+.carousel {
+  &__img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  &__sutitle-bar {
+    width: 3.5rem;
+    height: 0.25rem;
+    background-color: $colour-primary;
+    margin-bottom: 1rem;
+  }
+  &__title {
+    font-weight: 620;
+    line-height: 1.2;
+  }
+  &__desc {
+    font-size: 1rem;
+  }
+  &__content {
+    width: 60%;
+  }
+  &__btn {
+    transition: background-color .3s ease-in-out;
+    &.hover-bg:first-child {
+      &:hover {
+        background-color: $colour-secondary;
+      }
+    }
+    &.hover-bg:last-child {
+      &:hover {
+        background-color: $colour-primary;
+      }
+    }
+  }
+}

@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon{
+    @apply w-3 h-3 bg-white cursor-pointer relative ml-1 inline-block;
+}
+
+.icon-lg{
+    @apply w-6 h-6;
+}
+
+.bg-primary{
+    background-color: #2E4A8A;
+}
+
+.text-primary{
+    color: #2E4A8A;
+}
+
+.bg-secondary{
+    background-color: #263144;
+}
+
+.text-secondary{
+    color: #263144;
+}

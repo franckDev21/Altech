@@ -1,19 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Altech</title>
-  <!-- Tailwinds css -->
-  <link rel="stylesheet" href="../dist/output.css">
-  <!-- custums css -->
-  <link rel="stylesheet" href="./dist/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altech</title>
+    <!-- Tailwinds css -->
+    <link rel="stylesheet" href="../dist/output.css" />
+    <!-- custums css -->
+    <link rel="stylesheet" href="./dist/css/style.css" />
 
-  <!-- Header -->
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="top-bar">
+      <div class="container flex justify-between items-center">
+        <div class="top-bar__left flex items-center justify-between">
+          <div class="top-bar__info">
+            <span class="icon mr-1"></span>
+            <span>24 Tech Roqad st Ny 10023</span>
+          </div>
+          <div class="separator"></div>
+          <div class="top-bar__info ml-4 cursor-pointer">
+            <span class="icon mr-1"></span>
+            <span>info@example.com</span>
+          </div>
+        </div>
 
-</body>
+        <div class="top-bar__rigth flex items-center justify-between">
+          <div class="top-bar__info cursor-pointer">
+            <span class="icon mr-1"></span>
+            <span>Office Hour: 08:00am - 6:00pm</span>
+          </div>
+          <div class="separator"></div>
+          <div class="top-bar__info mx-2">
+            <span class="icon icon--popu"></span>
+            <span class="icon icon--popu"></span>
+            <span class="icon icon--popu"></span>
+            <span class="icon icon--popu"></span>
+          </div>
+          <div
+            class="top-bar__link py-4 bg-primary text-white px-6 cursor-pointer ml-5 font-semibold text-sm hover:bg-white transition-all ease-in-out"
+          >
+            Get A Quote
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header & Banner -->
+    <div class="banner">
+      <!-- header -->
+      <div class="header">
+        <div class="container flex justify-between items-center">
+          <img src="./assets/logo.png" alt="" class="header__logo">
+        </div>
+      </div>
+      <!-- carousel -->
+      <!-- <div class="carousel">
+        <img src="./assets/bg-banner.jpeg" alt="bg-1" class="carousel__img" />
+        <div class="container flex items-center justify-end">
+          <div class="carousel__content pt-72">
+            <div class="carousel__sutitle-bar"></div>
+            <div class="carousel__title font-semibold text-6xl mb-4">
+              <span class="text-secondary">Real-Time Monitoring Your</span> <span class="text-primary">Infrstracture</span>
+            </div>
+            <div class="carousel__desc mb-6">
+              We are equipped with an updated technical knowledge to serve our
+              customers properly. Our method of application maintains the
+              industry.
+            </div>
+            <div class="carousel__btns mt-8 flex items-center">
+              <div class="carousel__btn px-9 py-4 bg-primary text-sm font-semibold cursor-pointer text-white mr-4">Read More</div>
+              <div class="carousel__btn px-9 py-4 bg-secondary text-sm font-semibold cursor-pointer text-white mr-2">Get Altech</div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="carousel">
+        <img src="./assets/bg-banner-2.jpeg" alt="bg-1" class="carousel__img" />
+        <div class="container flex items-center justify-start">
+          <div class="carousel__content pt-72">
+            <div class="carousel__sutitle-bar"></div>
+            <div class="carousel__title font-semibold text-6xl mb-4">
+              <span class="text-primary">Best</span>&nbsp;<span class="text-secondary">Platform</span> <span class="text-primary">to Grow Your Bussiness</span>
+            </div>
+            <div class="carousel__desc mb-6">
+              We are equipped with an updated technical knowledge to serve our customers
+              properly. Our method of application maintains the industry.
+            </div>
+            <div class="carousel__btns mt-8 flex items-center">
+              <div class="carousel__btn hover-bg px-12 py-4 bg-primary text-sm font-semibold cursor-pointer text-white mr-4">Discuss Your Project</div>
+              <div class="carousel__btn px-9 py-4 text-sm font-semibold cursor-pointer text-secondary mr-2">
+                <span class="icon icon-lg inline-block transform translate-y-1 mr-1"></span>
+                <span>Get A Quote</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

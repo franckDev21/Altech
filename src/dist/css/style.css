@@ -1,6 +1,65 @@
+.header__logo {
+  width: 158px;
+  height: 45px;
+}
+
+.top-bar {
+  background-color: #263144;
+  color: #fff;
+  font-size: 0.8125rem;
+}
+.top-bar__link:hover {
+  color: #263144;
+}
+.top-bar .separator {
+  height: 1rem;
+  background-color: #9a9a9a;
+  width: 1px;
+  margin-left: 1rem;
+  opacity: 0.5;
+}
+
+.banner {
+  min-height: 798px;
+  position: relative;
+}
+
+.carousel__img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel__sutitle-bar {
+  width: 3.5rem;
+  height: 0.25rem;
+  background-color: #2E4A8A;
+  margin-bottom: 1rem;
+}
+.carousel__title {
+  font-weight: 620;
+  line-height: 1.2;
+}
+.carousel__desc {
+  font-size: 1rem;
+}
+.carousel__content {
+  width: 60%;
+}
+.carousel__btn {
+  transition: background-color 0.3s ease-in-out;
+}
+.carousel__btn.hover-bg:first-child:hover {
+  background-color: #263144;
+}
+.carousel__btn.hover-bg:last-child:hover {
+  background-color: #2E4A8A;
+}
+
 .container {
   width: 90%;
-  max-width: calc( 1440px - 320.79px);
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -49,8 +108,8 @@ ul, li {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #000000;
+  font-family: "Poppins", sans-serif;
+  color: #263144;
   font-size: 1.125rem;
   font-weight: 400;
 }

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tailwind" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "sass": "sass --watch ./src/scss/main.scss:./src/dist/css/style.css",
     "prefix": "postcss ./src/dist/css/style.css --use autoprefixer -d ./src/dist/css/prefixed/"
   },
