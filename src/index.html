@@ -57,13 +57,42 @@
     <!-- Header & Banner -->
     <div class="banner">
       <!-- header -->
-      <div class="header">
+      <div class="header absolute top-0 right-0 left-0 w-full">
         <div class="container flex justify-between items-center">
-          <img src="./assets/logo.png" alt="" class="header__logo">
+          <!-- logo -->
+          <img src="./assets/logo.png" alt="logo" class="header__logo cursor-pointer">
+
+          <!-- links -->
+          <div class="header__links flex items-center">
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Home</span>
+            </span>
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Pages</span>
+            </span>
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Services</span>
+            </span>
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Projets</span>
+            </span>
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Blog</span>
+            </span>
+            <span class="header__link font-semibold cursor-pointer">
+              <span>Shop</span>
+            </span>
+
+            <span class="separator separator-lg separator-opacity-sm inline-block"></span>
+
+            <div class="bg-primary h-8 w-8 rounded-md cursor-pointer "></div>
+            <div class="bg-secondary h-8 w-8 rounded-md cursor-pointer ml-2 "></div>
+
+          </div>
         </div>
       </div>
       <!-- carousel -->
-      <!-- <div class="carousel">
+      <div class="carousel">
         <img src="./assets/bg-banner.jpeg" alt="bg-1" class="carousel__img" />
         <div class="container flex items-center justify-end">
           <div class="carousel__content pt-72">
@@ -77,19 +106,19 @@
               industry.
             </div>
             <div class="carousel__btns mt-8 flex items-center">
-              <div class="carousel__btn px-9 py-4 bg-primary text-sm font-semibold cursor-pointer text-white mr-4">Read More</div>
-              <div class="carousel__btn px-9 py-4 bg-secondary text-sm font-semibold cursor-pointer text-white mr-2">Get Altech</div>
+              <div class="carousel__btn hover-bg px-9 py-4 bg-primary text-sm font-semibold cursor-pointer text-white mr-4">Read More</div>
+              <div class="carousel__btn hover-bg px-9 py-4 bg-secondary text-sm font-semibold cursor-pointer text-white mr-2">Get Altech</div>
             </div>
           </div>
         </div>
-      </div> -->
-      <div class="carousel">
+      </div>
+      <!-- <div class="carousel">
         <img src="./assets/bg-banner-2.jpeg" alt="bg-1" class="carousel__img" />
         <div class="container flex items-center justify-start">
           <div class="carousel__content pt-72">
             <div class="carousel__sutitle-bar"></div>
             <div class="carousel__title font-semibold text-6xl mb-4">
-              <span class="text-primary">Best</span>&nbsp;<span class="text-secondary">Platform</span> <span class="text-primary">to Grow Your Bussiness</span>
+              <span class="text-secondary">Best</span>&nbsp;<span class="text-primary">Platform</span> <span class="text-secondary">to Grow Your Bussiness</span>
             </div>
             <div class="carousel__desc mb-6">
               We are equipped with an updated technical knowledge to serve our customers
@@ -104,7 +133,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>

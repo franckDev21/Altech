@@ -1,46 +1,61 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 100%;
-    box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
-    font-family: $font-principal;
+  box-sizing: border-box;
+  font-family: $font-principal;
 }
 
 a,
 a:hover,
-a:active{
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
+a:active {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
 }
 
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
 // visibility
-.hide-for-mobile{
-    // hide for tablet and mobile
-    @include breakpoint-down(medium){
-        display: none;
-    }
+.hide-for-mobile {
+  // hide for tablet and mobile
+  @include breakpoint-down(medium) {
+    display: none;
+  }
 }
 
-.hide-for-desktop{
-    // hide for desktop viewport widths
-    @include breakpoint-up(large){
-        display: none;
-    };
+.hide-for-desktop {
+  // hide for desktop viewport widths
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+
+.separator {
+  height: 1rem;
+  background-color: lighten($color: gray, $amount: 10);
+  width: 1px;
+  margin-left: 1rem;
+  opacity: 0.5;
+  &-lg {
+    height: 2rem;
+  }
+  &-opacity-sm{
+    opacity: .2;
+  }
 }

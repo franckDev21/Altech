@@ -9,11 +9,4 @@
         }
     }
 
-    .separator{
-        height: 1rem;
-        background-color: lighten($color: gray, $amount: 10);
-        width: 1px;
-        margin-left: 1rem;
-        opacity: .5;
-    }
 }
