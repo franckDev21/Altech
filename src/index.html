@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <!-- Header -->
+    <!-- Top bar -->
     <div class="top-bar hide-for-mobile">
       <div class="container flex justify-between items-center">
         <div class="top-bar__left flex items-center justify-between">
@@ -57,12 +57,84 @@
     <!-- Header & Banner -->
     <div class="banner">
       <!-- header -->
-      <div class="header absolute top-0 right-0 left-0 w-full">
+      <div class="header flex items-center justify-center absolute top-0 right-0 left-0 w-full">
         <div class="container flex justify-between items-center">
-          <!-- logo -->
-          <img src="./assets/logo.png" alt="logo" class="header__logo cursor-pointer">
+          <!-- Hamberger menu -->
+          <input type="checkbox" id="humberger-menu" hidden >
+          <label for="humberger-menu" class="humberger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+          
+          <!-- Mobile links -->
+          <div class="header__mobile-links shadow-lg px-4 pb-4 pt-2">
+            <div class="link">
+              <div class="link__header">
+                Home
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+            <div class="link">
+              <div class="link__header">
+                Pages
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+            <div class="link">
+              <div class="link__header">
+                Services
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+            <div class="link">
+              <div class="link__header">
+                Project
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+            <div class="link">
+              <div class="link__header">
+                Blog
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+            <div class="link">
+              <div class="link__header">
+                Shop
+              </div>
+              <div class="link__content">
+                <span>Homepage 1</span>
+                <span>Homepage 2</span>
+                <span>Homepage 3</span>
+              </div>
+            </div>
+          </div>
 
-          <!-- links -->
+          <!-- logo -->
+          <img src="./assets/logo.png" alt="logo" class="logo cursor-pointer">
+
+          <!-- desktop links -->
           <div class="header__links flex items-center">
             <span class="header__link z-50 relative font-semibold cursor-pointer">
               <span>Home</span>
@@ -137,39 +209,6 @@
             <div class="bg-secondary h-8 w-8 rounded-md cursor-pointer ml-2 "></div>
 
           </div>
-          <!-- <div class="header__links flex items-center">
-          
-            <ul class="nav flex items-center justify-center">
-              <li class="nav__link"><a href="#">Home</a></li>
-              <li class="nav__link">
-                <a href="#">Pages</a>
-                <ul class="menu">
-                  <li><a href="#">HomePage 1</a></li>
-                  <li><a href="#">HomePage 2</a></li>
-                  <li><a href="#">HomePage 3</a></li>
-                  <li><a href="#">HomePage 4</a></li>
-                  <li class="link--sub">
-                    <a href="#">Header Styles</a>
-                    <ul class="submenu">
-                      <li><a href="#">header style 1</a></li>
-                      <li><a href="#">header style 2</a></li>
-                      <li><a href="#">header style 3</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav__link"><a href="#">Services</a></li>
-              <li class="nav__link"><a href="#">Project</a></li>
-              <li class="nav__link"><a href="#">Blog</a></li>
-              <li class="nav__link"><a href="#">Shop</a></li>
-            </ul>
-
-            <span class="separator separator-lg separator-opacity-sm inline-block"></span>
-
-            <div class="bg-primary h-8 w-8 rounded-md cursor-pointer "></div>
-            <div class="bg-secondary h-8 w-8 rounded-md cursor-pointer ml-2 "></div>
-
-          </div> -->
         </div>
       </div>
       <!-- carousel -->

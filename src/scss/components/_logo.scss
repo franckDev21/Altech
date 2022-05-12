@@ -1,0 +1,10 @@
+.logo {
+  width: 158px;
+  height: 45px;
+
+  @include if-mobile {
+    transform : translateX(.8rem);
+    width: 140px;
+    height: auto;
+  }
+}

@@ -1,9 +1,15 @@
 .carousel {
+  position: relative;
+    height: 850px;
+
   &:hover{
     .carousel__prev,.carousel__next{
       opacity: 1;
     }
   }
+  @media (max-width: $breakpoint-lg) {
+    height: 514px;
+  } 
   &__img {
     position: absolute;
     z-index: -1;

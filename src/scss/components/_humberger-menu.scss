@@ -1,0 +1,31 @@
+.humberger-menu {
+  
+  // invisible sur grand ecran
+  @include hide-for-desktop;
+
+  width: 31px;
+  cursor: pointer;
+  & > div{
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background-color: $colour-secondary;
+    &:not(:last-child){
+      margin-bottom: .3rem;
+    }
+    transition: 0.3s ease transform, .3s opacity ease .1s;
+  }
+}
+
+#humberger-menu:checked ~ .humberger-menu{
+  & > div:nth-child(2){
+    transform : translateX(-100%);
+    opacity : 0;
+  }
+  & > div:first-child{
+    transform: translateY(8px) rotateZ(45deg);
+  }
+  & > div:last-child{
+    transform: translateY(-6px) rotateZ(-45deg);
+  }
+}

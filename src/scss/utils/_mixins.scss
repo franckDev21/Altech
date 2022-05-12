@@ -17,6 +17,24 @@
     } 
 }
 
+@mixin hide-for-desktop {
+    @media (min-width: $breakpoint-lg) {
+        display: none;
+    } 
+}
+
+@mixin if-mobile {
+    @media (max-width: $breakpoint-lg) {
+        @content;
+    } 
+}
+
+@mixin if-desktop {
+    @media (min-width: $breakpoint-lg) {
+        @content;
+    } 
+}
+
 // flex position
 @mixin flex($a-i: center, $j-c: space-between,$d: row,$d-type: flex){
     display: $d-type;

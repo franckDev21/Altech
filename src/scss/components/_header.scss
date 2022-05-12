@@ -1,18 +1,76 @@
 .header {
   background-color: #fff8;
+  height: 80px;
+  // position: relative;
 
-  &__logo {
-    width: 158px;
-    height: 45px;
+  @include if-mobile {
+    background-color: #fff;
+  }
+
+  &__mobile-links{
+    position: absolute;
+    top: 80px;
+    background-color: #fff;
+    right:1.2rem;
+    left:1.2rem;
+    font-size: 0.9375rem;
+    transform-origin: top;
+    transform : scaleY(0);
+    z-index: 1;
+
+    @inclure hide-for-desktop;
+
+    &.active{
+      transform : scale(1);
+    }
+
+    .link{
+      padding: 0.5rem 0;
+
+      &:not(:last-child){
+        border-bottom: 1px solid rgba(238, 238, 238, 0.588);
+      }
+
+      &__header{
+        font-weight: bold;
+        &:not(:first-child){
+          padding-top: 0;
+        }
+      }
+
+      &__content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        display : none;
+
+        & span{
+          padding-left: 1rem;
+          padding-top: .4rem;
+          padding-bottom: .4rem;
+          width: 100%;
+          &:not(:last-child){
+            border-bottom: 1px solid rgba(238, 238, 238, 0.588);
+          }
+        }
+      }
+
+    }
+    
   }
 
   &__link {
-    height: $height-header;
-    line-height: $height-header;
+    height: 80px;
+    line-height: 80px;
     font-size: 0.9375rem;
     padding: 0 19px;
     position: relative;
     display: inline-block;
+
+    // les liens sont invisibles sur mobile
+    @include hide-for-mobile;
+
     &::after {
       bottom: 0;
       left: 0;
