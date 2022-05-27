@@ -146,8 +146,16 @@
     @media (max-width: 578px) {
       .carousel__btn{
         &:first-child{
-
+          padding: .8rem 1rem;
         }
+        &:last-child{
+          padding: .8rem 1rem;
+       }
+      }
+    }
+    @media (max-width: 462px){
+      .carousel__btn{
+        font-size: .8rem;
       }
     }
   }

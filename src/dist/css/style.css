@@ -311,6 +311,20 @@
     justify-content: flex-start;
   }
 }
+@media (max-width: 578px) {
+  .carousel--2 .carousel__btn:first-child {
+    padding: 0.8rem 1rem;
+  }
+  .carousel--2 .carousel__btn:last-child {
+    padding: 0.8rem 1rem;
+  }
+}
+@media (max-width: 462px) {
+  .carousel--2 .carousel__btn {
+    font-size: 0.8rem;
+  }
+}
+
 .humberger-menu {
   width: 31px;
   cursor: pointer;
