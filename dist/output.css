@@ -549,6 +549,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.float-none {
+  float: none;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -633,6 +637,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -688,6 +696,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -703,6 +721,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-semibold {
