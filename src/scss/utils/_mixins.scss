@@ -53,6 +53,22 @@
     @content
 }
 
+@mixin selection(){
+    ::selection {
+        color: #fff;
+        text-shadow: non;
+        background-color: #2d4a8a;
+    }
+}
+
+@mixin clearfix() {
+    &::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+  }
+
 // pseudo
 @mixin pseudo($ctn:'',$d-type: inline-block){
     display: $d-type;

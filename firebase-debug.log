@@ -1,0 +1,49 @@
+[debug] [2022-05-24T14:52:37.878Z] ----------------------------------------------------------------------
+[debug] [2022-05-24T14:52:37.880Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Diallo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-24T14:52:37.881Z] CLI Version:   11.0.0
+[debug] [2022-05-24T14:52:37.881Z] Platform:      win32
+[debug] [2022-05-24T14:52:37.881Z] Node Version:  v16.14.2
+[debug] [2022-05-24T14:52:37.882Z] Time:          Tue May 24 2022 15:52:37 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2022-05-24T14:52:37.883Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-24T14:52:37.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-24T14:52:37.893Z] > authorizing via signed-in user (thiernoedu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Diallo\AltechProject\AltechModified\Altech
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-24T14:53:42.278Z] > refreshing access token with scopes: []
+[debug] [2022-05-24T14:53:42.279Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-24T14:53:44.381Z] <<< HTTP RESPONSE 200 {"date":"Tue, 24 May 2022 14:53:44 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T14:53:44.530Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-05-24T14:53:46.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-05-24T14:53:46.292Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project house-inovation-site (House inovation site) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-05-24T14:55:07.660Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\Diallo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:526:28)
+[error] 
+[error] Error: An unexpected error has occurred.

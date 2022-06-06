@@ -1,0 +1,23 @@
+.btn-about {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-color: #2d4a8a;
+    display: inline-block;
+    line-height: normal;
+    border: 1px solid transparent;
+    position: relative;
+    font-weight: 600;
+    overflow: hidden;
+    z-index: 2;
+    vertical-align: middle;
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+    background-color: #2d4a8a;
+    margin-top: 1.5rem!important;
+    color: white;
+    
+}
+.btn-about:hover{
+   color: white;
+   background-color: #263045;
+}

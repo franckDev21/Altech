@@ -1,0 +1,17 @@
+.inside-section-title-head-h2{
+    @media (max-width: 991px)
+     {
+    font-size: 26px !important;
+    line-height: 36px;
+    }
+    font-size: 30px !important;
+    line-height: 36px;
+    margin-bottom: 0;
+    transition: all .4s ease-in-out;
+    font-weight: 600;
+    color: #263045;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #263045;
+}

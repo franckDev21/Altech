@@ -1,0 +1,7 @@
+.image-container{
+    text-align: center!important;
+   
+}
+.image-container::after, image.image-container::before{
+    box-sizing: border-box;
+}

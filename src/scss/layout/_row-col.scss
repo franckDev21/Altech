@@ -1,0 +1,10 @@
+.row-col{
+    @media (min-width: 768px){
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    position: relative;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+}

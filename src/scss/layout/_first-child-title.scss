@@ -1,0 +1,13 @@
+.first-child-title{
+    @media (max-width: 991px){
+
+    font-size: 26px !important;
+    line-height: 36px;
+}
+    font-weight: 700;
+    color: #263045;
+    transition: all .4s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    text-align: left;
+}

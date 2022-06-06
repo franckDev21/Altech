@@ -1,0 +1,8 @@
+.row-inside-content-1{
+    @media (max-width: 1160px){
+        flex-wrap: wrap;
+}
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px
+}

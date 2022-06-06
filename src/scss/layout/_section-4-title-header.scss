@@ -1,0 +1,22 @@
+.section-4-title-header{
+    margin-bottom: 52px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6e6e6e;
+    letter-spacing: 0px;
+    text-align: center!important;
+}
+.section-4-title-header::before{
+    width: 52px;
+    bottom: -20px;
+    height: 4px;
+    top: auto;
+    position: absolute;
+    content: '';
+    border: 4px solid transparent;
+    border-bottom: 0;
+    border-top-color: #2d4a8a;
+}

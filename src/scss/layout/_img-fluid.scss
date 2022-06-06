@@ -1,0 +1,16 @@
+img{
+    @media (min-width: 576px)
+     {
+    text-align: center!important;
+    }
+    vertical-align: middle;
+    border-style: none;
+
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid::after, .img-fluid::before{
+    box-sizing: border-box;
+}

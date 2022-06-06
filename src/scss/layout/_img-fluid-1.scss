@@ -1,0 +1,9 @@
+img{
+    vertical-align: middle;
+    border-style: none;
+    @include selection();
+}
+.img-fluid-1{
+    max-width: 100%;
+    height: auto;
+}
