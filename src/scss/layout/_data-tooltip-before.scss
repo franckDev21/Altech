@@ -1,0 +1,17 @@
+.data-tooltip::before{
+    bottom: 78%;
+    left: 50%;
+    margin-left: -6px;
+    margin-bottom: -12px;
+    border-top-color: #2d4a8a;
+    z-index: 1001;
+    border: 6px solid transparent;
+    background: 0 0;
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+    pointer-events: none;
+
+}

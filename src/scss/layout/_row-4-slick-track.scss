@@ -1,0 +1,19 @@
+.row-4-slick-track{
+    width: 2422px;
+    opacity: 1;
+    transform: translate3d(-346px, 0px, 0px);
+    transition: -webkit-transform 500ms ease 0s;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.row-4-slick-track::before{
+    display: table;
+    content: "";
+}
+.row-4-slick-track::after{
+    display: table;
+    content: "";
+    clear: both;
+}

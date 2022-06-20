@@ -1,0 +1,11 @@
+.before-a-list::before{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    line-height: 18px;
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'themify';
+    content: "\e661";
+    box-sizing: border-box;
+}

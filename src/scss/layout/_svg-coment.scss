@@ -1,0 +1,14 @@
+.svg-coment{
+    color: #2d4a8a;
+    margin-right: 5px;
+    overflow: visible;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -0.125em;
+    width: 1.125em;
+}
+.svg-coment::before{
+    content: "\f086";
+    box-sizing: border-box;
+}

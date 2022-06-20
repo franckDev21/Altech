@@ -1,0 +1,9 @@
+.section-6{
+    padding: 40px;
+    display: block;
+}
+.section-6::after{
+    display: block;
+    clear: both;
+    content: "";
+}

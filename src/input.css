@@ -25,3 +25,7 @@
 .text-secondary{
     color: #263144;
 }
+.text-third{
+    color:#263045;
+    transition: all .4s ease-in-out;
+}

@@ -1,0 +1,12 @@
+.icon-custom-before::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    z-index: 1;
+    top: 19px;
+    right: -7px;
+    border: 7px solid transparent;
+    border-right: 0;
+    border-left-color: #2d4a8a;
+}

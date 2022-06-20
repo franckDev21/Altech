@@ -1,0 +1,23 @@
+.clock-extends{
+    color: #fff;
+    border: 1px solid transparent;
+    line-height: 50px;
+    top:2px;
+}
+.clock-extends::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    z-index: 1;
+    top: 19px;
+    right: -7px;
+    border: 7px solid transparent;
+    border-right: 0;
+    border-left-color: #2d4a8a;
+    box-sizing: border-box;
+    line-height: 50px;
+    top:1px;
+    bottom:1px;
+  
+}
